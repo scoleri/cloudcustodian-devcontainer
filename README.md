@@ -1,6 +1,7 @@
 # Dev Container for Cloud Custodian Development/Contribution
 
 ## Building container *scratch*
+```
 docker run -it ubuntu:latest /bin/bash
 apt update
 apt install \
@@ -17,4 +18,4 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 export PATH=$PATH:~/.poetry/bin
 ### Source - For contribution see NOTE about fork:  https://cloudcustodian.io/docs/developer/installing.html
 git clone https://github.com/cloud-custodian/cloud-custodian.git
-
+```
